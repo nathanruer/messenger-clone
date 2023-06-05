@@ -5,7 +5,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
 import { toast } from "react-hot-toast";
-import Modal from "../Modal";
+import Modal from "./Modal";
 import { FiAlertTriangle } from "react-icons/fi"
 import { Dialog } from "@headlessui/react";
 import Button from "../Button";
